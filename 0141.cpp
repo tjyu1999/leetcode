@@ -1,3 +1,5 @@
+/* linked list fast-slow pointer */
+
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
@@ -15,5 +17,3 @@ public:
         return false;
     }
 };
-
-// fast-slow pointer
