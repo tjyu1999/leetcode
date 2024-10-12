@@ -1,8 +1,11 @@
+/* linked list */
+
 class Solution {
 public:
     ListNode *reverseList(ListNode *head) {
         ListNode *prev = nullptr;
         
+        // split into two linked lists and connect the old one to the new one
         while (head != nullptr) {
             ListNode *next = head->next;
             head->next = prev;
@@ -13,5 +16,3 @@ public:
         return prev;
     }
 };
-
-// splitting into two linked lists and connect the old one to the new one
