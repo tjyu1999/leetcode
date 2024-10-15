@@ -1,3 +1,3 @@
 # leetcode
 
-The practice of the LeetCode top 100 liked problems.
+The practice of LeetCode top 100 liked problems.
