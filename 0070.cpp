@@ -1,4 +1,9 @@
-/* dynamic programming */
+/* climbing stairs
+ * 
+ * input: n = 3
+ * output: 3
+ * hint: dynamic programming
+ */
 
 class Solution {
 public:
