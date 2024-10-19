@@ -1,4 +1,8 @@
-/* binary search */
+/* binary search
+ *
+ * input:  nums = [-1,0,3,5,9,12], target = 9
+ * output: 4
+ */
 
 class Solution {
 public:
@@ -7,14 +11,14 @@ public:
         int r = nums.size() - 1;
 
         while (l <= r) {
-            int m = (l + r) / 2;
+            int m = l + (r - l) / 2;
 
-            if (nums[m] == target)
+            if (target == nums[m])
                 return m;
-            else if (nums[m] < target)
-                l = ++m;
-	    else
-                r = --m;
+	    else if (target < nums[m])
+                r = m - 1;
+            else
+                l = m + 1;
         }
 
         return -1;
