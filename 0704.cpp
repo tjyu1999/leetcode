@@ -1,6 +1,6 @@
 /* binary search
  *
- * input:  nums = [-1,0,3,5,9,12], target = 9
+ * input :  nums = [-1, 0, 3, 5, 9, 12], target = 9
  * output: 4
  */
 
