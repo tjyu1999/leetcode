@@ -1,8 +1,8 @@
 /* climbing stairs
  * 
- * input: n = 3
+ * input : n = 3
  * output: 3
- * hint: dynamic programming
+ * hint  : dynamic programming
  */
 
 class Solution {
