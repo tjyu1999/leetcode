@@ -1,8 +1,8 @@
 /* linked list cycle
  * 
- * input: head = [3,2,0,-4], pos = 1
+ * input : head = [3, 2, 0, -4], pos = 1
  * output: true
- * hint: fast-slow pointer
+ * hint  : fast-slow pointer
  */
 
 class Solution {
