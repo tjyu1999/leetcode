@@ -2,6 +2,7 @@
  *
  * input : nums = [1, 1, 1, 2, 2, 3], k = 2
  * output: [1, 2]
+ * hint  : unordered map, priority queue
  */
 
 class Solution {
