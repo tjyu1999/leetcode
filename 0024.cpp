@@ -1,3 +1,9 @@
+/* swap nodes in pairs
+ *
+ * input : head = [1, 2, 3, 4]
+ * output: [2, 1, 4, 3]
+ */
+ 
 class Solution {
 public:
     ListNode *swapPairs(ListNode *head) {
