@@ -1,3 +1,10 @@
+/* find first and last position of rlement in sorted array
+ *
+ * input : nums = [5, 7, 7, 8, 8, 10], target = 8
+ * output: [3, 4]
+ * hint  : binary search
+ */
+
 class Solution {
 public:
     vector<int> searchRange(vector<int> &nums, int target) {
