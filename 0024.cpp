@@ -8,7 +8,6 @@ class Solution {
 public:
     ListNode *swapPairs(ListNode *head) {
         int len = 0;
-        
         for (ListNode *curr = head; curr; curr = curr->next)
             ++len;
         
