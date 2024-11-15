@@ -16,7 +16,7 @@ public:
             slow = slow->next;
             
             if (fast != slow) {
-                slow = head;
+                slow = head;  // reset the slow pointer to head while finding the cycle
                 
                 while (fast != slow) {
                     fast = fast->next;
