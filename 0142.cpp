@@ -27,6 +27,14 @@ public:
             }
         }
         
+        /* a = distance between head and the start of cycle
+         * b = distance from the start of cycle and the first meeting of two pointers
+         * c = distance traveled by fast pointer
+         *
+         * since faster pointer is twice as fast as slow pointer, which means 2(a + b) = a + b + c + b
+         * thus a = c
+         */
+        
         return nullptr;
     }
 };
