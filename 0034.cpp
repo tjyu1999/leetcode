@@ -19,7 +19,7 @@ public:
     }
 
 private:
-    int binarySearch(vector<int> &nums, int target, bool isLeft) {
+    int binarySearch(vector<int> &nums, int target, bool first) {
         int idx = -1;
         int l = 0;
         int r = nums.size() - 1;
@@ -34,7 +34,7 @@ private:
             else {
                 idx = mid;
                 
-                if (isLeft)
+                if (first)
                     r = mid - 1;
                 else
                     l = mid + 1;
