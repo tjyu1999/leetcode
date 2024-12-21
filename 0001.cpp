@@ -1,3 +1,9 @@
+/* remove Nth node from end of list
+ *
+ * input : nums = [2, 7, 11, 15], target = 9
+ * output: [0, 1]
+ */
+
 class Solution {
 public:
     vector<int> twoSum(vector<int> &nums, int target) {
