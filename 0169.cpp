@@ -13,7 +13,8 @@ public:
         for (auto n: nums) {
             if (count == 0)
                 ans = n;
-            
+
+            // the majority number has authority to add count variable
             count += (n == ans) ? 1 : -1;
         }
 
