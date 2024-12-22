@@ -1,7 +1,8 @@
-/* remove Nth node from end of list
+/* two sum
  *
  * input : nums = [2, 7, 11, 15], target = 9
  * output: [0, 1]
+ * hint  : hash table
  */
 
 class Solution {
