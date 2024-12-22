@@ -10,7 +10,8 @@ public:
     int maxSubArray(vector<int> &nums) {
         int ans = INT_MIN;
         int sum = 0;
-        
+
+        // calculate the sum of the max subarray of each number
         for (auto n : nums) {
             sum = max(n, n + sum);
             ans = max(ans, sum);
