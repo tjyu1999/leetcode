@@ -1,3 +1,9 @@
+/* merge intervals
+ *
+ * input : intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+ * output: [[1, 6], [8, 10], [15, 18]]
+ */
+
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>> &intervals) {
