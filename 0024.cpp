@@ -7,10 +7,12 @@
 class Solution {
 public:
     ListNode *swapPairs(ListNode *head) {
+        // the length is necessary to make sure when to terminate
         int len = 0;
         for (ListNode *curr = head; curr; curr = curr->next)
             ++len;
-        
+
+        // it includes three nodes in a step of swapping, add dummy node for help
         ListNode dummy(0, head);
         ListNode *prev = &dummy;
         ListNode *curr = head;
