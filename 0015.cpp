@@ -1,3 +1,9 @@
+/* 3sum
+ *
+ * input : nums = [-1, 0, 1, 2, -1, -4]
+ * output: [[-1, -1, 2], [-1, 0, 1]]
+ */
+
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int> &nums) {
