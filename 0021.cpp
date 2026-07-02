@@ -1,9 +1,3 @@
-/* 21. Merge Two Sorted Lists
- *
- * Time:  O(n + m)
- * Space: O(1)
- */
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {

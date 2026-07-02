@@ -1,10 +1,3 @@
-/* 35. Search Insert Position
- *
- * Time:  O(log(n))
- * Space: O(1)
- */
-
-
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {

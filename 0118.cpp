@@ -1,10 +1,3 @@
-/* 118. Pascal's Triangle
- *
- * Time:  O(n^2)
- * Space: O(n^2)
- */
-
-
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
